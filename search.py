@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 from database import get_connection
-
+# search student by name or id
 class SearchWindow:
     def __init__(self, parent, refresh_callback):
         self.window = tk.Toplevel(parent)
